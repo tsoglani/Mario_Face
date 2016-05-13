@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_f96ae9b1551bf72c943cd99013c10ccdd5b9cb37/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_b2e8731cbb710a05c6e458a6376bee066d97688b/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.1_98989daf090df87bc7006a180d8adc2c9b789000/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c50640344f7781fdc523fc9c9652b7a4e2dd4a44">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c187120ed8186cd83f2267043d1826b581dcbd96/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_52eff94b3642c9c9187a227b2b220aff368c8aa6/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a8457a53459117c03bd629b80b8e7431c05ed97">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_81e0f0da1c3e0a0b90cc7c13b87887210b5573a5/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="40a6fbd08fdbb71c74751916201e5fd8694e16ca">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-1.4.0_9b72bffa222c119bc7cdc64004a095db745c8fcd/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.1_101ed176403705532c63ebf7739523994b5a258f/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_d9ae288ce7893c432fbc2a989ed90757268315fe/classes.dex" />
+    </item>
+    <item
+        jar="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/home/tsoglani/Desktop/SuperMarioWatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_f95d22ae767bcc7cbe3f55ccb9a4c9c50e098c47/classes.dex" />
+    </item>
+
+</items>
