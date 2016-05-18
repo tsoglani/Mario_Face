@@ -19,6 +19,7 @@ import android.support.wearable.view.CardFrame;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
+import android.util.Log;
 import android.view.Display;
 import android.view.SurfaceHolder;
 import android.view.WindowInsets;
@@ -775,13 +776,33 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             }
         }
 
+
+        long touchTime=0;
+        final long maxTouchTime=150;
         public void onTapCommand(@TapType int tapType, int x, int y, long eventTime) {
-            switch (tapType) {
-                case MarioWatchFaceService.JUMP_NO:
-                    changeMarioChapter();
-                default:
-                    super.onTapCommand(tapType, x, y, eventTime);
+
+
+            if (tapType == TAP_TYPE_TOUCH) {
+                touchTime=eventTime;
+                Log.e("TAP_TYPE_TOUCH","TAP_TYPE_TOUCH");
             }
+            if (tapType == TAP_TYPE_TAP) {
+                touchTime=eventTime-touchTime;
+               if (touchTime<maxTouchTime){
+                   changeMarioChapter();
+               }
+                Log.e("TAP_TYPE_TAP",""+touchTime);
+
+                touchTime=0;
+            }
+
+//            switch (tapType) {
+//                case MarioWatchFaceService.JUMP_NO:
+//
+//                    changeMarioChapter();
+//                default:
+//                    super.onTapCommand(tapType, x, y, eventTime);
+//            }
         }
 
 
