@@ -22,7 +22,7 @@ import android.widget.RadioGroup;
             change_animation_manual = (RadioButton) findViewById(R.id.change_evolution);
             radio_group=(RadioGroup)findViewById(R.id.radio_group);
             do_nothing = (RadioButton) findViewById(R.id.no_change);
-
+            enable_date=(CheckBox) findViewById(R.id.enable_date);
             change_hour_type = (CheckBox) findViewById(R.id.hour_type);
             enable_animation= (CheckBox) findViewById(R.id.enable_animation);
             if (MarioWatchFaceService.isChangingBackgoundByTouch) {
@@ -49,13 +49,21 @@ import android.widget.RadioGroup;
             } else {
                 enable_animation.setChecked(false);
             }
+            if (MarioWatchFaceService.isDateEnable) {
+                enable_date.setChecked(true);
+            } else {
+                enable_date.setChecked(false);
+            }
+
+
+
             addListener();
         }
 
         private RadioButton change_background_manual,change_animation_manual,do_nothing;
         private RadioGroup radio_group;
         private CheckBox change_hour_type;
-        private CheckBox enable_animation;
+        private CheckBox enable_animation,enable_date;
 
         private void addListener() {
 
@@ -152,11 +160,25 @@ import android.widget.RadioGroup;
             });
 
 
+            enable_date.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+                    storeSharePref(IS_DATE_ENABLE, isChecked);
+                    MarioWatchFaceService.isDateEnable = isChecked;
+
+
+
+                }
+            });
+
         }
 
         protected static final String MY_PREFS_NAME = "SuperMarioFacePref";
         protected static final String CHANGE_BACKGROUND_ON_CLICK = "isChangingBackgoundByTouch";
         protected static final String CHANGE_ANIMATION_ON_CLICK = "isChangingAnimationByTouch";
+        protected static final String IS_DATE_ENABLE = "IS_DATE_ENABLE";
+
 
         protected static final String HOUR_TYPE = "Hour_type";
         protected static final String ENABLE_ANIMATION = "is enable animation";

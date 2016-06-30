@@ -40,7 +40,7 @@
         jar="/media/tsoglani/tsoglani1/github/SuperMarioFace/wear/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="b01207028dea1c0c56e3fddfa1c1d9b7049eeb04">
+        sha1="8432dbf24c40b2a2e34c2e7fc2584fd8d6f50272">
         <dex dex="/media/tsoglani/tsoglani1/github/SuperMarioFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2e60c8e2ac728906f273a91811ebbc5783dcb9a1/classes.dex" />
     </item>
     <item
@@ -68,7 +68,7 @@
         jar="/media/tsoglani/tsoglani1/github/SuperMarioFace/wear/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="66a5853fed77674ad24c9f373a1ded615f391c4d">
+        sha1="656e285ce6113bbb96ee57b34865f77b11441b52">
         <dex dex="/media/tsoglani/tsoglani1/github/SuperMarioFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_12b91d4c9f3952d78f638c2e81d2d88d05e16e58/classes.dex" />
     </item>
     <item

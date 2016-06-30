@@ -94,7 +94,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
     private boolean isBlockAnimated;
     private boolean isMarioAnimated;
     private boolean isAnimatedByForce;
-    public static boolean isAnimateMode = true;
+    public static boolean isAnimateMode = true,isDateEnable=false;
     public static boolean isChangingAnimationByTouch = true,isChangingBackgoundByTouch=false,is24HourType=true,isEnableAnimation=true;
 
 
@@ -514,7 +514,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             isAnimateMode = Settings.getSharedPref(getApplicationContext(),Settings.ENABLE_ANIMATION, true);
             isChangingAnimationByTouch = Settings.getSharedPref(getApplicationContext(),Settings.CHANGE_ANIMATION_ON_CLICK, true);
             isChangingBackgoundByTouch = Settings.getSharedPref(getApplicationContext(),Settings.CHANGE_BACKGROUND_ON_CLICK, false);
-
+            isDateEnable= Settings.getSharedPref(getApplicationContext(),Settings.IS_DATE_ENABLE, false);
         }
 
 
@@ -737,6 +737,21 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             } else {
                 canvas.drawBitmap(num2Bitmap, numberHourX2, isInAmbientMode() ? numberStartY : currentNumberY, null);
             }
+
+            if(!isInAmbientMode()&&isDateEnable) {
+                Calendar c = Calendar.getInstance();
+Paint paint= new Paint();
+                paint.setColor(getResources().getColor(R.color.green));
+
+                String formattedDate =  c.get(Calendar.DAY_OF_MONTH)+"/"+ c.get(Calendar.MONTH)+"/"+ Integer.toString(c.get(Calendar.YEAR)).substring(Integer.toString(c.get(Calendar.YEAR)).length()-2);
+
+                paint.setTextSize(20);
+                paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
+
+                canvas.drawText(formattedDate,  5,height/2, paint);
+            }
+
+
             if (tempMinute < 10) {
                 timeTextOneByOne = 0;
             } else {
@@ -756,6 +771,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             canvas.drawBitmap(getTimeBitmap(timeTextOneByOne), numberMinuteX2, isInAmbientMode() ? numberStartY : currentNumberY, null);
             if(!is24HourType){
                 Paint paint=new Paint();
+                paint.setColor(getResources().getColor(R.color.white));
                 paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
                 paint.setTextSize(20);
                 canvas.drawText(hourExtra, (int)(width/2+3*blockScaledBitmap.getWidth()/7.0), isInAmbientMode() ? (numberStartY+num3Bitmap .getHeight()+22) : (currentNumberY +num3Bitmap .getHeight()+22)

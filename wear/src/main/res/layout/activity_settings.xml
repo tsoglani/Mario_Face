@@ -12,19 +12,30 @@ android:layout_gravity="center|left"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/transparent_black_percent_20"
 
-
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="On click"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:layout_gravity="center_vertical" />
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/radio_group"
-            android:background="@color/transparent_black_percent_60"
+            android:background="@color/transparent_black_percent_70"
             >
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/change_background"
-                android:text="Change background on click"
+                android:text="Background"
                 android:checked="true"
                 />
 
@@ -32,7 +43,7 @@ android:layout_gravity="center|left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/change_evolution"
-                android:text="Mario evolution on click"
+                android:text="Evolution"
                 android:checked="false"
                 />
 
@@ -40,11 +51,14 @@ android:layout_gravity="center|left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/no_change"
-                android:text="do nothing on click"
+                android:text="Nothing"
                 android:checked="false"
                 />
 
         </RadioGroup>
+
+
+</LinearLayout>
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,6 +74,15 @@ android:layout_gravity="center|left"
             android:layout_height="wrap_content"
             android:text="Enable animation"
             android:id="@+id/enable_animation"
+            android:checked="true"
+            android:textStyle="bold"
+            android:textColor="@color/WhiteSmoke"
+            android:layout_alignParentEnd="true" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:id="@+id/enable_date"
             android:checked="true"
             android:textStyle="bold"
             android:textColor="@color/WhiteSmoke"
