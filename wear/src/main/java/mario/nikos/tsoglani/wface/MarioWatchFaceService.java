@@ -25,7 +25,6 @@ import android.view.SurfaceHolder;
 import android.view.WindowInsets;
 import android.view.WindowManager;
 
-import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.Builder;
 import com.google.android.gms.wearable.Wearable;
@@ -77,24 +76,25 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
     private boolean isMarioAnimated;
     private boolean isAnimatedByForce;
     public static boolean isAnimateMode = true;
-    public static boolean hasEvolution = true;
+    public static boolean isChangingAnimationByTouch = true,isChangingBackgoundByTouch=false,is24HourType=true,isEnableAnimation=true;
 
-    private boolean getSharedPref(String text, boolean defVal) {
-        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-        return prefs.getBoolean(text, defVal);
 
-    }
-
-    public static void storeSharePref(Context context, String text, boolean value) {
-        if (text.equals(evolutionSharedPrefString)) {
-            hasEvolution = value;
-        } else if (text.equals(animationSharedPrefString)) {
-            isAnimateMode = value;
-        }
-        SharedPreferences.Editor editor = context.getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-        editor.putBoolean(text, value);
-        editor.commit();
-    }
+//    private boolean getSharedPref(String text, boolean defVal) {
+//        SharedPreferences prefs = Settings.getSharedPreferences(this,MY_PREFS_NAME, MODE_PRIVATE);
+//        return prefs.getBoolean(text, defVal);
+//
+//    }
+//
+//    public static void storeSharePref(Context context, String text, boolean value) {
+//        if (text.equals(evolutionSharedPrefString)) {
+//            isChangingAnimationByTouch = value;
+//        } else if (text.equals(animationSharedPrefString)) {
+//            isAnimateMode = value;
+//        }
+//        SharedPreferences.Editor editor = context.getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+//        editor.putBoolean(text, value);
+//        editor.commit();
+//    }
 
     private class Engine extends android.support.wearable.watchface.CanvasWatchFaceService.Engine {
 
@@ -331,7 +331,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
         int curentChapter;
 
         private void changeMarioChapter() {
-            if (isMarioAnimated || !hasEvolution) {
+            if (isMarioAnimated || !isChangingAnimationByTouch) {
                 return;
             }
             curentChapter++;
@@ -449,7 +449,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             currentHour = currentCalendar.get(Calendar.HOUR_OF_DAY);
             currentMinute = currentCalendar.get(Calendar.MINUTE);
             isAnimateMode = getSharedPref(animationSharedPrefString, true);
-            hasEvolution = getSharedPref(evolutionSharedPrefString, true);
+            isChangingAnimationByTouch = getSharedPref(evolutionSharedPrefString, true);
         }
 
 

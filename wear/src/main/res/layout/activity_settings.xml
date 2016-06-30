@@ -18,20 +18,53 @@
         android:layout_gravity="center">
 
 
-        <CheckBox
-            android:id="@+id/evolution_checkBox"
+        <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:id="@+id/radio_group"
+            android:background="@color/transparent_black_percent_60"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/change_background"
+                android:text="Mario evolution on click"
+                android:checked="true"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/change_animation"
+                android:text="Change background on click"
+                android:checked="false"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/no_change"
+                android:text="do nothing on click"
+                android:checked="false"
+                />
+
+        </RadioGroup>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24 hour type"
+            android:id="@+id/hour_type"
             android:checked="true"
-            android:text="Evolution" />
+            android:textStyle="bold"
+            android:textColor="@color/WhiteSmoke"
+            android:layout_alignParentEnd="true" />
 
         <CheckBox
-            android:id="@+id/animation_checkBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:text="Enable animation"
+            android:id="@+id/enable_animation"
             android:checked="true"
-            android:text="Animation" />
+            android:textStyle="bold"
+            android:textColor="@color/WhiteSmoke"
+            android:layout_alignParentEnd="true" />
     </LinearLayout>
 </FrameLayout>
