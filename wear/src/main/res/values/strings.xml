@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Mario watchface</string>
+    <string name="app_name">Super Mario Face</string>
+    <string name="my_digital_name">Super Mario</string>
+    <string name="title_activity_settings">Super Mario watch face</string>
 </resources>

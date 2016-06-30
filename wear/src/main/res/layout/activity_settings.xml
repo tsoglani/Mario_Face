@@ -3,13 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+android:layout_gravity="center|left"
     android:background="@drawable/amb_mario_bg_320_320"
-    tools:context="mario.nikos.tsoglani.wface.Settings">
+    tools:context="tsoglani.mario.face.supermarioface.Settings">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -28,16 +24,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/change_background"
-                android:text="Mario evolution on click"
+                android:text="Change background on click"
                 android:checked="true"
                 />
+
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/change_animation"
-                android:text="Change background on click"
+                android:id="@+id/change_evolution"
+                android:text="Mario evolution on click"
                 android:checked="false"
                 />
+
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
