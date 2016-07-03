@@ -174,14 +174,14 @@ import android.widget.RadioGroup;
 
         }
 
-        protected static final String MY_PREFS_NAME = "SuperMarioFacePref";
-        protected static final String CHANGE_BACKGROUND_ON_CLICK = "isChangingBackgoundByTouch";
-        protected static final String CHANGE_ANIMATION_ON_CLICK = "isChangingAnimationByTouch";
-        protected static final String IS_DATE_ENABLE = "IS_DATE_ENABLE";
+        protected static final String MY_PREFS_NAME = "SuperMarioFacePref_Mario_watch_face";
+        protected static final String CHANGE_BACKGROUND_ON_CLICK = "isChangingBackgoundByTouch_Mario_watch_face";
+        protected static final String CHANGE_ANIMATION_ON_CLICK = "isChangingAnimationByTouch_Mario_watch_face";
+        protected static final String IS_DATE_ENABLE = "IS_DATE_ENABLE_Mario_watch_face";
 
 
-        protected static final String HOUR_TYPE = "Hour_type";
-        protected static final String ENABLE_ANIMATION = "is enable animation";
+        protected static final String HOUR_TYPE = "Hour_type_Mario_watch_face";
+        protected static final String ENABLE_ANIMATION = "is enable animation_Mario_watch_face";
 
 
         private boolean getSharedPref(String text, boolean defVal) {
