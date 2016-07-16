@@ -6,7 +6,11 @@
 android:layout_gravity="center|left"
     android:background="@drawable/amb_mario_bg_320_320"
     tools:context="tsoglani.mario.face.supermarioface.Settings">
-
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    >
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -87,5 +91,16 @@ android:layout_gravity="center|left"
             android:textStyle="bold"
             android:textColor="@color/WhiteSmoke"
             android:layout_alignParentEnd="true" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Battery"
+            android:id="@+id/enable_battery"
+            android:checked="false"
+            android:textStyle="bold"
+            android:textColor="@color/WhiteSmoke"
+            android:layout_alignParentEnd="true" />
     </LinearLayout>
+</ScrollView>
 </FrameLayout>

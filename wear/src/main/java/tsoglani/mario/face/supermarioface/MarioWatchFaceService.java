@@ -28,6 +28,7 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
+import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -95,7 +96,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
     private boolean isMarioAnimated;
     private boolean isAnimatedByForce;
     public static boolean isAnimateMode = true,isDateEnable=false;
-    public static boolean isChangingAnimationByTouch = true,isChangingBackgoundByTouch=false,is24HourType=true,isEnableAnimation=true;
+    public static boolean isChangingAnimationByTouch = true,isChangingBackgoundByTouch=false,is24HourType=true,isEnableAnimation=true,isBatteryVisible=true;
 
 
 //    private boolean getSharedPref(String text, boolean defVal) {
@@ -157,6 +158,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
         private Bitmap scaledSeven_amb_bitmap;
 
         private Bitmap backgroundBitmap;
+        private Bitmap batteryBitmap,batteryScaledBitmap,batteryBitmap_abc,batteryScaledBitmap_abc;
         private Bitmap backgroundScaledBitmap;
         private Bitmap blockBitmap;
         private Bitmap blockScaledBitmap;
@@ -491,6 +493,10 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             eight_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number8, null)).getBitmap();
             nine_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number9, null)).getBitmap();
             seconds_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.seconds, null)).getBitmap();
+            batteryBitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.battery, null)).getBitmap();
+            batteryBitmap_abc = ((BitmapDrawable) resources.getDrawable(R.drawable.battery_abc, null)).getBitmap();
+
+
 
             backgroundBitmap_amb = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_mario_bg_320_320, null)).getBitmap();
             mario_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_mario, null)).getBitmap();
@@ -512,6 +518,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             currentHour = currentCalendar.get(Calendar.HOUR_OF_DAY);
             currentMinute = currentCalendar.get(Calendar.MINUTE);
             isAnimateMode = Settings.getSharedPref(getApplicationContext(),Settings.ENABLE_ANIMATION, true);
+            isBatteryVisible=Settings.getSharedPref(getApplicationContext(),Settings.ENABLE_BATTERY, false);
             isChangingAnimationByTouch = Settings.getSharedPref(getApplicationContext(),Settings.CHANGE_ANIMATION_ON_CLICK, true);
             isChangingBackgoundByTouch = Settings.getSharedPref(getApplicationContext(),Settings.CHANGE_BACKGROUND_ON_CLICK, false);
             isDateEnable= Settings.getSharedPref(getApplicationContext(),Settings.IS_DATE_ENABLE, false);
@@ -778,6 +785,21 @@ Paint paint= new Paint();
                        , paint);
 
             }
+
+            if(isBatteryVisible){
+                Paint bp= new Paint();
+                bp.setTextSize(17);
+                bp.setTypeface(Typeface.create(Typeface.DEFAULT_BOLD, Typeface.BOLD_ITALIC));
+                canvas.drawBitmap((isInAmbientMode())?batteryScaledBitmap_abc:batteryScaledBitmap,20,blockStartY+blockScaledBitmap.getHeight(),null);
+                IntentFilter iFilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+                Intent batteryStatus =  registerReceiver(null, iFilter);
+                if(isInAmbientMode()){
+                    bp.setColor(getResources().getColor(R.color.MilkWhite));
+                }
+
+                canvas.drawText(Integer.toString( batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1))+"%",20+batteryScaledBitmap.getWidth()/4,(blockStartY+blockScaledBitmap.getHeight()+2*batteryScaledBitmap.getHeight()/3.0f),bp);
+            }
+
             canvas.drawRect(cardBounds, mainPaint);
         }
 
@@ -825,7 +847,8 @@ Paint paint= new Paint();
             scaledSeven_amb_bitmap = getScaledBitmap(seven_amb_bitmap);
             scaledEight_amb_bitmap = getScaledBitmap(eight_amb_bitmap);
             scaledNine_amb_bitmap = getScaledBitmap(nine_amb_bitmap);
-
+            batteryScaledBitmap = getScaledBitmap(batteryBitmap);
+            batteryScaledBitmap_abc = getScaledBitmap(batteryBitmap_abc);
 
             scaledZero_bitmap = getScaledBitmap(zero_bitmap);
             scaledOne_bitmap = getScaledBitmap(one_bitmap);

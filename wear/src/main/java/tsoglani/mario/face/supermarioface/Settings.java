@@ -25,6 +25,7 @@ import android.widget.RadioGroup;
             enable_date=(CheckBox) findViewById(R.id.enable_date);
             change_hour_type = (CheckBox) findViewById(R.id.hour_type);
             enable_animation= (CheckBox) findViewById(R.id.enable_animation);
+            battery_enable= (CheckBox) findViewById(R.id.enable_battery);
             if (MarioWatchFaceService.isChangingBackgoundByTouch) {
                 change_background_manual.setChecked(true);
             }
@@ -49,6 +50,15 @@ import android.widget.RadioGroup;
             } else {
                 enable_animation.setChecked(false);
             }
+
+
+            if (MarioWatchFaceService.isBatteryVisible) {
+                battery_enable.setChecked(true);
+            } else {
+                battery_enable.setChecked(false);
+            }
+
+
             if (MarioWatchFaceService.isDateEnable) {
                 enable_date.setChecked(true);
             } else {
@@ -63,7 +73,7 @@ import android.widget.RadioGroup;
         private RadioButton change_background_manual,change_animation_manual,do_nothing;
         private RadioGroup radio_group;
         private CheckBox change_hour_type;
-        private CheckBox enable_animation,enable_date;
+        private CheckBox enable_animation,enable_date,battery_enable;
 
         private void addListener() {
 
@@ -158,6 +168,17 @@ import android.widget.RadioGroup;
 
                 }
             });
+            battery_enable.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+                @Override
+                public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+
+                    storeSharePref(ENABLE_BATTERY, isChecked);
+                    MarioWatchFaceService.isBatteryVisible = isChecked;
+
+
+
+                }
+            });
 
 
             enable_date.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -181,7 +202,7 @@ import android.widget.RadioGroup;
 
 
         protected static final String HOUR_TYPE = "Hour_type_Mario_watch_face";
-        protected static final String ENABLE_ANIMATION = "is enable animation_Mario_watch_face";
+        protected static final String ENABLE_ANIMATION = "is enable animation_Mario_watch_face",ENABLE_BATTERY="ENABLE_Battery_mario";
 
 
         private boolean getSharedPref(String text, boolean defVal) {
