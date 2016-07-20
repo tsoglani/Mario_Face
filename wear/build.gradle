@@ -6,7 +6,7 @@ android {
     buildToolsVersion "24.0.0"
     defaultConfig {
         applicationId "tsoglani.mario.face.supermarioface"
-        minSdkVersion 20
+        minSdkVersion 21
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
