@@ -37,6 +37,7 @@ import android.support.wearable.view.CardFrame;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Display;
 import android.view.SurfaceHolder;
@@ -673,7 +674,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             if (isInAmbientMode()) {
                 canvas.drawBitmap(blockScaledBitmap_amb, blockStartX, blockStartY, null);
                 canvas.drawBitmap(blockScaledBitmap_amb, blockStartX + ((float) blockScaledBitmap.getWidth()) + 5, blockStartY, null);
-                canvas.drawBitmap(seconds_amb_bitmap, blockStartX + ((float) 3 * blockScaledBitmap_amb.getWidth() / 2.0f), blockStartY + blockScaledBitmap_amb.getHeight(), null);
+                canvas.drawBitmap(seconds_amb_bitmap, blockStartX + ((float) 4 * blockScaledBitmap_amb.getWidth() / 2.0f), blockStartY + blockScaledBitmap_amb.getHeight(), null);
 
 
             } else {
@@ -687,10 +688,10 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
                     canvas.drawBitmap(blockScaledBitmap, blockStartX, currentBlockY, null);
                 }
                 canvas.drawBitmap(blockScaledBitmap, blockStartX + ((float) blockScaledBitmap.getWidth() + 5), currentBlockY, null);
-                canvas.drawBitmap(seconds_bitmap, blockStartX + ((float) 3 * blockScaledBitmap.getWidth() / 2.0f), blockStartY + blockScaledBitmap.getHeight(), null);
+                canvas.drawBitmap(seconds_bitmap, blockStartX + ((float) 4* blockScaledBitmap.getWidth() / 2.0f), blockStartY + blockScaledBitmap.getHeight(), null);
                 Paint p = new Paint();
                 p.setTextSize(seconds_bitmap.getWidth() / 3.0f);
-                canvas.drawText(Integer.toString(currentCalendar.getTime().getSeconds()), blockStartX + ((float) 3 * blockScaledBitmap.getWidth() / 2.0f + 2 * seconds_bitmap.getWidth() / 6), blockStartY + blockScaledBitmap.getHeight() + 6 * seconds_bitmap.getHeight() / 7, p);
+                canvas.drawText(Integer.toString(currentCalendar.getTime().getSeconds()), blockStartX + ((float) 4 * blockScaledBitmap.getWidth() / 2.0f + 2 * seconds_bitmap.getWidth() / 6), blockStartY + blockScaledBitmap.getHeight() + 6 * seconds_bitmap.getHeight() / 7, p);
 
             }
             if (isInAmbientMode()) {
@@ -755,7 +756,10 @@ Paint paint= new Paint();
                 paint.setTextSize(20);
                 paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
 
-                canvas.drawText(formattedDate,  5,height/2, paint);
+
+
+
+                canvas.drawText(formattedDate,  blockStartX+blockScaledBitmap.getWidth()-30,blockStartY+blockScaledBitmap.getHeight()+20, paint);
             }
 
 
@@ -801,6 +805,13 @@ Paint paint= new Paint();
             }
 
             canvas.drawRect(cardBounds, mainPaint);
+        }
+
+        public  float convertDpToPixel(float dp, Context context){
+            Resources resources = context.getResources();
+            DisplayMetrics metrics = resources.getDisplayMetrics();
+            float px = dp * ((float)metrics.densityDpi / DisplayMetrics.DENSITY_DEFAULT);
+            return px;
         }
 
         public void onAmbientModeChanged(boolean inAmbientMode) {
