@@ -14,6 +14,8 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+            multiDexEnabled true
+
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -21,8 +23,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.google.android.support:wearable:+'
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.android.support:appcompat-v7:24.0.0'
-    compile 'com.google.android.gms:play-services-wearable:+'
+    compile 'com.google.android.support:wearable:+'
+    compile 'com.google.android.gms:play-services-wearable:7.5.0'
 }
