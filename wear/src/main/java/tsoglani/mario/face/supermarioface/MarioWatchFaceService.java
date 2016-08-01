@@ -626,7 +626,21 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
                 }
             }
 
+            if(isDateEnable) {
+                Calendar c = Calendar.getInstance();
+                Paint paint= new Paint();
+                paint.setColor(isInAmbientMode()?getResources().getColor(R.color.transparent_white_percent_55):getResources().getColor(R.color.green));
 
+                String formattedDate =  c.get(Calendar.DAY_OF_MONTH)+"/"+ c.get(Calendar.MONTH)+"/"+ Integer.toString(c.get(Calendar.YEAR)).substring(Integer.toString(c.get(Calendar.YEAR)).length()-2);
+
+                paint.setTextSize(25);
+                paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD_ITALIC));
+
+
+
+
+                canvas.drawText(formattedDate,  blockStartX+blockScaledBitmap.getWidth()-30,blockStartY+blockScaledBitmap.getHeight()+10+seconds_amb_bitmap.getHeight()/2, paint);
+            }
             if (!isInAmbientMode()) {
                 if (isMarioAnimated) {
                     if (currentMarioY > maxMarioY && (marioDirection == 0 || marioDirection == JUMP_UP)) {
@@ -746,21 +760,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
                 canvas.drawBitmap(num2Bitmap, numberHourX2, isInAmbientMode() ? numberStartY : currentNumberY, null);
             }
 
-            if(!isInAmbientMode()&&isDateEnable) {
-                Calendar c = Calendar.getInstance();
-Paint paint= new Paint();
-                paint.setColor(getResources().getColor(R.color.green));
 
-                String formattedDate =  c.get(Calendar.DAY_OF_MONTH)+"/"+ c.get(Calendar.MONTH)+"/"+ Integer.toString(c.get(Calendar.YEAR)).substring(Integer.toString(c.get(Calendar.YEAR)).length()-2);
-
-                paint.setTextSize(20);
-                paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
-
-
-
-
-                canvas.drawText(formattedDate,  blockStartX+blockScaledBitmap.getWidth()-30,blockStartY+blockScaledBitmap.getHeight()+20, paint);
-            }
 
 
             if (tempMinute < 10) {
