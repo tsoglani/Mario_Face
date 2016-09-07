@@ -14,13 +14,12 @@
  * limitations under the License.
  */
 
-package tsoglani.mario.face.supermarioface;
+package tsoglanakos.mario.watchface.s_marioface;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -262,25 +261,25 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
         private void setRun0Image() {
             switch (curentChapter) {
                 case miniMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_l)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_l)).getBitmap();
                     break;
                 case bigMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_big_l)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_big_l)).getBitmap();
                     break;
                 case fireMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_fire_l)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_fire_l)).getBitmap();
                     break;
                 case tailMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tail_l)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tail_l)).getBitmap();
                     break;
                 case frogMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_frog_l)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_frog_l)).getBitmap();
                     break;
                 case skiouroseMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_skiouros_l)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_skiouros_l)).getBitmap();
                     break;
                 case tankMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tank_l)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tank_l)).getBitmap();
                     break;
             }
         }
@@ -288,25 +287,25 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
         private void setRun1Image() {
             switch (curentChapter) {
                 case miniMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario)).getBitmap();
                     break;
                 case bigMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_big)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_big)).getBitmap();
                     break;
                 case fireMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_fire)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_fire)).getBitmap();
                     break;
                 case tailMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tail)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tail)).getBitmap();
                     break;
                 case frogMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_frog)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_frog)).getBitmap();
                     break;
                 case skiouroseMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_skiouros)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_skiouros)).getBitmap();
                     break;
                 case tankMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tank)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tank)).getBitmap();
                     break;
             }
         }
@@ -314,25 +313,25 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
         private void setRun2Image() {
             switch (curentChapter) {
                 case miniMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_r)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_r)).getBitmap();
                     break;
                 case bigMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_big_r)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_big_r)).getBitmap();
                     break;
                 case fireMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_fire_r)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_fire_r)).getBitmap();
                     break;
                 case tailMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tail_r)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tail_r)).getBitmap();
                     break;
                 case frogMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_frog_r)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_frog_r)).getBitmap();
                     break;
                 case skiouroseMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_skiouros_r)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_skiouros_r)).getBitmap();
                     break;
                 case tankMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tank_r)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tank_r)).getBitmap();
                     break;
             }
 
@@ -349,24 +348,24 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
 
             switch (backgroundIndex){
                 case 0:
-                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario_bg_320_320, null)).getBitmap();
-                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(R.drawable.amb_mario_bg_320_320, null)).getBitmap();
+                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_bg_320_320, null)).getBitmap();
+                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario_bg_320_320, null)).getBitmap();
                     break;
                 case 1:
-                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario2, null)).getBitmap();
-                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario2_abc, null)).getBitmap();
+                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario2, null)).getBitmap();
+                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario2_abc, null)).getBitmap();
                     break;
                 case 2:
-                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario3, null)).getBitmap();
-                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario3_abc, null)).getBitmap();
+                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario3, null)).getBitmap();
+                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario3_abc, null)).getBitmap();
                     break;
                 case 3:
-                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario4, null)).getBitmap();
-                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario4_abc, null)).getBitmap();
+                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario4, null)).getBitmap();
+                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario4_abc, null)).getBitmap();
                     break;
                 case 4:
-                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario5, null)).getBitmap();
-                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario5_abc, null)).getBitmap();
+                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario5, null)).getBitmap();
+                    backgroundBitmap_amb = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario5_abc, null)).getBitmap();
                     break;
 //                case 5:
 //                    backgroundBitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.mario6, null)).getBitmap();
@@ -408,46 +407,46 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
 
             switch (curentChapter) {
                 case miniMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario)).getBitmap();
-                    marioJump_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_jump)).getBitmap();
-                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.amb_mario, null)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario)).getBitmap();
+                    marioJump_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_jump)).getBitmap();
+                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario, null)).getBitmap();
 
                     break;
                 case bigMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_big)).getBitmap();
-                    marioJump_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_big_jump)).getBitmap();
-                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.amb_mario_big, null)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_big)).getBitmap();
+                    marioJump_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_big_jump)).getBitmap();
+                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario_big, null)).getBitmap();
 
 
                     break;
                 case fireMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_fire)).getBitmap();
-                    marioJump_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_fire_jump)).getBitmap();
-                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.amb_mario_fire, null)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_fire)).getBitmap();
+                    marioJump_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_fire_jump)).getBitmap();
+                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario_fire, null)).getBitmap();
 
                     break;
                 case tailMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tail)).getBitmap();
-                    marioJump_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tail_jump)).getBitmap();
-                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.amb_mario_tail, null)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tail)).getBitmap();
+                    marioJump_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tail_jump)).getBitmap();
+                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario_tail, null)).getBitmap();
 
                     break;
                 case frogMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_frog)).getBitmap();
-                    marioJump_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_frog_jump)).getBitmap();
-                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.amb_mario_frog, null)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_frog)).getBitmap();
+                    marioJump_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_frog_jump)).getBitmap();
+                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario_frog, null)).getBitmap();
 
                     break;
                 case skiouroseMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_skiouros)).getBitmap();
-                    marioJump_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_skiouros_jump)).getBitmap();
-                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.amb_mario_skiouros, null)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_skiouros)).getBitmap();
+                    marioJump_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_skiouros_jump)).getBitmap();
+                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario_skiouros, null)).getBitmap();
 
                     break;
                 case tankMario:
-                    mario_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tank)).getBitmap();
-                    marioJump_bitmap = ((BitmapDrawable) getDrawable(R.drawable.mario_tank_jump)).getBitmap();
-                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(R.drawable.amb_mario_tank, null)).getBitmap();
+                    mario_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tank)).getBitmap();
+                    marioJump_bitmap = ((BitmapDrawable) getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_tank_jump)).getBitmap();
+                    mario_amb_bitmap = ((BitmapDrawable) getResources().getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario_tank, null)).getBitmap();
                     break;
             }
 
@@ -480,40 +479,40 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             Resources resources = getResources();
             googleClient = new Builder(MarioWatchFaceService.this).addApi(Wearable.API).build();
             setWatchFaceStyle(new WatchFaceStyle.Builder(MarioWatchFaceService.this).setCardPeekMode(1).setBackgroundVisibility(0).setShowSystemUiTime(false).setAcceptsTapEvents(true).setHotwordIndicatorGravity(81).setStatusBarGravity(49).build());
-            backgroundBitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.mario_bg_320_320, null)).getBitmap();
-            mario_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.mario, null)).getBitmap();
-            blockBitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.block2, null)).getBitmap();
-            zero_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number0, null)).getBitmap();
-            one_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number1, null)).getBitmap();
-            two_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number2, null)).getBitmap();
-            three_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number3, null)).getBitmap();
-            four_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number4, null)).getBitmap();
-            five_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number5, null)).getBitmap();
-            six_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number6, null)).getBitmap();
-            seven_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number7, null)).getBitmap();
-            eight_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number8, null)).getBitmap();
-            nine_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.number9, null)).getBitmap();
-            seconds_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.seconds, null)).getBitmap();
-            batteryBitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.battery, null)).getBitmap();
-            batteryBitmap_abc = ((BitmapDrawable) resources.getDrawable(R.drawable.battery_abc, null)).getBitmap();
+            backgroundBitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_bg_320_320, null)).getBitmap();
+            mario_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario, null)).getBitmap();
+            blockBitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.block2, null)).getBitmap();
+            zero_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number0, null)).getBitmap();
+            one_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number1, null)).getBitmap();
+            two_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number2, null)).getBitmap();
+            three_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number3, null)).getBitmap();
+            four_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number4, null)).getBitmap();
+            five_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number5, null)).getBitmap();
+            six_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number6, null)).getBitmap();
+            seven_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number7, null)).getBitmap();
+            eight_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number8, null)).getBitmap();
+            nine_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.number9, null)).getBitmap();
+            seconds_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.seconds, null)).getBitmap();
+            batteryBitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.battery, null)).getBitmap();
+            batteryBitmap_abc = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.battery_abc, null)).getBitmap();
 
 
 
-            backgroundBitmap_amb = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_mario_bg_320_320, null)).getBitmap();
-            mario_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_mario, null)).getBitmap();
-            marioJump_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.mario_jump, null)).getBitmap();
-            blockBitmap_amb = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_block2, null)).getBitmap();
-            zero_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number0, null)).getBitmap();
-            one_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number1, null)).getBitmap();
-            two_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number2, null)).getBitmap();
-            three_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number3, null)).getBitmap();
-            four_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number4, null)).getBitmap();
-            five_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number5, null)).getBitmap();
-            six_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number6, null)).getBitmap();
-            seven_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number7, null)).getBitmap();
-            eight_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number8, null)).getBitmap();
-            nine_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_number9, null)).getBitmap();
-            seconds_amb_bitmap = ((BitmapDrawable) resources.getDrawable(R.drawable.amb_seconds, null)).getBitmap();
+            backgroundBitmap_amb = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario_bg_320_320, null)).getBitmap();
+            mario_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_mario, null)).getBitmap();
+            marioJump_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.mario_jump, null)).getBitmap();
+            blockBitmap_amb = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_block2, null)).getBitmap();
+            zero_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number0, null)).getBitmap();
+            one_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number1, null)).getBitmap();
+            two_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number2, null)).getBitmap();
+            three_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number3, null)).getBitmap();
+            four_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number4, null)).getBitmap();
+            five_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number5, null)).getBitmap();
+            six_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number6, null)).getBitmap();
+            seven_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number7, null)).getBitmap();
+            eight_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number8, null)).getBitmap();
+            nine_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_number9, null)).getBitmap();
+            seconds_amb_bitmap = ((BitmapDrawable) resources.getDrawable(tsoglanakos.mario.watchface.s_marioface.R.drawable.amb_seconds, null)).getBitmap();
 
             currentCalendar = Calendar.getInstance();
             currentHour = currentCalendar.get(Calendar.HOUR_OF_DAY);
@@ -629,7 +628,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             if(isDateEnable) {
                 Calendar c = Calendar.getInstance();
                 Paint paint= new Paint();
-                paint.setColor(isInAmbientMode()?getResources().getColor(R.color.transparent_white_percent_55):getResources().getColor(R.color.green));
+                paint.setColor(isInAmbientMode()?getResources().getColor(tsoglanakos.mario.watchface.s_marioface.R.color.transparent_white_percent_55):getResources().getColor(tsoglanakos.mario.watchface.s_marioface.R.color.green));
 
                 String formattedDate =  c.get(Calendar.DAY_OF_MONTH)+"/"+ c.get(Calendar.MONTH)+"/"+ Integer.toString(c.get(Calendar.YEAR)).substring(Integer.toString(c.get(Calendar.YEAR)).length()-2);
 
@@ -782,7 +781,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             canvas.drawBitmap(getTimeBitmap(timeTextOneByOne), numberMinuteX2, isInAmbientMode() ? numberStartY : currentNumberY, null);
             if(!is24HourType){
                 Paint paint=new Paint();
-                paint.setColor(getResources().getColor(R.color.white));
+                paint.setColor(getResources().getColor(tsoglanakos.mario.watchface.s_marioface.R.color.white));
                 paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD));
                 paint.setTextSize(20);
                 canvas.drawText(hourExtra, (int)(width/2+3*blockScaledBitmap.getWidth()/7.0), isInAmbientMode() ? (numberStartY+num3Bitmap .getHeight()+22) : (currentNumberY +num3Bitmap .getHeight()+22)
@@ -798,7 +797,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
                 IntentFilter iFilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
                 Intent batteryStatus =  registerReceiver(null, iFilter);
                 if(isInAmbientMode()){
-                    bp.setColor(getResources().getColor(R.color.MilkWhite));
+                    bp.setColor(getResources().getColor(tsoglanakos.mario.watchface.s_marioface.R.color.MilkWhite));
                 }
 
                 canvas.drawText(Integer.toString( batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1))+"%",20+batteryScaledBitmap.getWidth()/4,(blockStartY+blockScaledBitmap.getHeight()+2*batteryScaledBitmap.getHeight()/3.0f),bp);

@@ -1,4 +1,4 @@
-package tsoglani.mario.face.supermarioface;
+package tsoglanakos.mario.watchface.s_marioface;
 
 import org.junit.Test;
 

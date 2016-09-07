@@ -1,4 +1,4 @@
-package tsoglani.mario.face.supermarioface;
+package tsoglanakos.mario.watchface.s_marioface;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -17,15 +17,15 @@ import android.widget.RadioGroup;
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_settings);
-            change_background_manual = (RadioButton) findViewById(R.id.change_background);
-            change_animation_manual = (RadioButton) findViewById(R.id.change_evolution);
-            radio_group=(RadioGroup)findViewById(R.id.radio_group);
-            do_nothing = (RadioButton) findViewById(R.id.no_change);
-            enable_date=(CheckBox) findViewById(R.id.enable_date);
-            change_hour_type = (CheckBox) findViewById(R.id.hour_type);
-            enable_animation= (CheckBox) findViewById(R.id.enable_animation);
-            battery_enable= (CheckBox) findViewById(R.id.enable_battery);
+            setContentView(tsoglanakos.mario.watchface.s_marioface.R.layout.activity_settings);
+            change_background_manual = (RadioButton) findViewById(tsoglanakos.mario.watchface.s_marioface.R.id.change_background);
+            change_animation_manual = (RadioButton) findViewById(tsoglanakos.mario.watchface.s_marioface.R.id.change_evolution);
+            radio_group=(RadioGroup)findViewById(tsoglanakos.mario.watchface.s_marioface.R.id.radio_group);
+            do_nothing = (RadioButton) findViewById(tsoglanakos.mario.watchface.s_marioface.R.id.no_change);
+            enable_date=(CheckBox) findViewById(tsoglanakos.mario.watchface.s_marioface.R.id.enable_date);
+            change_hour_type = (CheckBox) findViewById(tsoglanakos.mario.watchface.s_marioface.R.id.hour_type);
+            enable_animation= (CheckBox) findViewById(tsoglanakos.mario.watchface.s_marioface.R.id.enable_animation);
+            battery_enable= (CheckBox) findViewById(tsoglanakos.mario.watchface.s_marioface.R.id.enable_battery);
             if (MarioWatchFaceService.isChangingBackgoundByTouch) {
                 change_background_manual.setChecked(true);
             }
