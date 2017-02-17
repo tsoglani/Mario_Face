@@ -572,11 +572,12 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
             int width = display.getWidth();
             int height = display.getHeight();
             currentCalendar.setTimeInMillis(System.currentTimeMillis());
-            if (isInAmbientMode()) {
-                canvas.drawBitmap(mBackgroundScaledBitmap_amb, 0, 0, null);
-            } else {
-                canvas.drawBitmap(backgroundScaledBitmap, 0, 0, null);
-            }
+                if (isInAmbientMode()) {
+                    canvas.drawBitmap(mBackgroundScaledBitmap_amb, 0, 0, null);
+                } else {
+                    canvas.drawBitmap(backgroundScaledBitmap, 0, 0, null);
+                }
+
 
             currentMinute = currentCalendar.get(Calendar.MINUTE);
             Calendar calendar = currentCalendar;
@@ -707,16 +708,19 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
                 canvas.drawText(Integer.toString(currentCalendar.getTime().getSeconds()), blockStartX + ((float) 4 * blockScaledBitmap.getWidth() / 2.0f + 2 * seconds_bitmap.getWidth() / 6), blockStartY + blockScaledBitmap.getHeight() + 6 * seconds_bitmap.getHeight() / 7, p);
 
             }
-            if (isInAmbientMode()) {
-                canvas.drawBitmap(marioScaled_amb_bitmap, marioStartX, marioStartY, null);
-                mainPaint.setColor(ViewCompat.MEASURED_STATE_MASK);
-            } else {
-                if (isMarioAnimated) {
-                    canvas.drawBitmap(marioJumpScaled_bitmap, marioStartX, currentMarioY, null);
+
+            if(isEnableAnimation) {
+                if (isInAmbientMode()) {
+                    canvas.drawBitmap(marioScaled_amb_bitmap, marioStartX, marioStartY, null);
+                    mainPaint.setColor(ViewCompat.MEASURED_STATE_MASK);
                 } else {
-                    canvas.drawBitmap(marioScaled_bitmap, marioStartX, currentMarioY, null);
+                    if (isMarioAnimated) {
+                        canvas.drawBitmap(marioJumpScaled_bitmap, marioStartX, currentMarioY, null);
+                    } else {
+                        canvas.drawBitmap(marioScaled_bitmap, marioStartX, currentMarioY, null);
+                    }
+                    mainPaint.setColor(-1);
                 }
-                mainPaint.setColor(-1);
             }
             if (isInAmbientMode()) {
                 tempMinute = currentMinute;

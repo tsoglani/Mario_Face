@@ -4,13 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 android:layout_gravity="center|left"
-android:layout_marginTop="5dp"
-    android:layout_marginBottom="10dp"
+    android:layout_marginBottom="20dp"
     android:background="@drawable/amb_mario_bg_320_320"
     tools:context="tsoglanakos.mario.watchface.s_marioface.Settings">
 <ScrollView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+
+
     android:layout_gravity="center"
     >
     <LinearLayout
@@ -22,44 +23,49 @@ android:layout_marginTop="5dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
+    android:layout_marginTop="60dp"
     android:background="@color/transparent_black_percent_20"
 
     >
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="On click"
+    android:text="On \nclick"
     android:textAppearance="?android:attr/textAppearanceSmall"
     android:layout_gravity="center_vertical" />
         <RadioGroup
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="100dp"
             android:id="@+id/radio_group"
             android:background="@color/transparent_black_percent_70"
             >
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/change_background"
-                android:text="Background"
-                android:checked="true"
-                />
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/change_evolution"
-                android:text="Evolution"
-                android:checked="false"
-                />
 
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/no_change"
-                android:text="Nothing"
-                android:checked="false"
-                />
+
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/change_evolution"
+        android:text="Evolution"
+        android:checked="false"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/change_background"
+        android:text="Background"
+        android:checked="true"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/no_change"
+        android:text="Nothing"
+        android:checked="false"
+        />
+
 
         </RadioGroup>
 
@@ -78,7 +84,7 @@ android:layout_marginTop="5dp"
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enable animation"
+            android:text="Animation"
             android:id="@+id/enable_animation"
             android:checked="true"
             android:textStyle="bold"

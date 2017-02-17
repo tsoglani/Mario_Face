@@ -7,13 +7,12 @@ android {
         applicationId "tsoglanakos.mrio.watchface.s_marioface"
         minSdkVersion 15
         targetSdkVersion 24
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.2"
     }
     buildTypes {
         release {
             minifyEnabled false
-            publishNonDefault true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
