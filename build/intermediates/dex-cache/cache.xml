@@ -2,463 +2,391 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/percent/23.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="cddfbb68753c7b1222ffb7af97bfd9ecf413aba7">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-23.0.1_09205902355706d069fa3b0e9f1f73af6150387a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-7.5.0_3f1677c33a28304e1fe453404e2adad88d3cf111/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/support-annotations-24.0.0_ca781be88add0d66d15ecd5d76f9178ed76e69d4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-7.5.0_3f1677c33a28304e1fe453404e2adad88d3cf111/classes.dex" />
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.0_722b7321ed77c84ac425f05589cbaa3304d2e74a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-24.0.0_6b2d4eabb810a146854129dbc79dcc63eb856247.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_1093bbafba1f29a95ac354dc8acae227133bc103/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.google.android.gms-play-services-wearable-7.5.0_ad2b0a96cdd26f73027084973c235310d957bfef/classes.dex" />
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wearable-7.5.0_980d33a94062d657d5794b1fb045e8af5a6b37b9.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/support-annotations-24.0.0_ca781be88add0d66d15ecd5d76f9178ed76e69d4.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_607ace7309c5f0d6ea28bf6a59485b265546a742/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
         sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_02af076e9c7552f8b197ffab488a027a213df2f6/classes.dex" />
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-appcompat-v7-24.0.0_49704d959fab6146e93dc933e96ec9aa8b540d51/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_7c4b4bc252b8d394548a13cd20f480a2386c9fc2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="820cd129a621fc57f1b707f95911786eac4057a0">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9b25184b1a65ea8a24a8e7118f26feb820421bbe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_5bce1de0d46f02871c2100aa0f21c8af54dba965/classes.dex" />
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_9cbf9072892f2d5eb190f138bd1e68fa85cb87e2.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/percent/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.0.0_3eda659b0a152be0ca51edf7c0e05f98b7dc1fd6.jar" />
+        sha1="cc03ddac6017ba6366944c3eb01efc8751a00a6b">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-percent-25.2.0_86d33ea27bf2a4045115f2176e046e400507aa86/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-24.0.0_719d331f24e7851a44ab4279471a82a0a0eb0a65.jar" />
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-fragment-25.2.0_5dd9b1566bdc749997926be801835cfc1a283916/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="d4d699dd197929286d19b015f4c142b8360f2137">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.google.android.support-wearable-2.0.0_fdd7b30579d68dbde0a36314dba5c81ac30bd9bc/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-v4-25.2.0_ecc1e14147be1b95d119f79660adaee6e1fc1f25/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/internal_impl-24.0.0_db8fd3ebb183813ba12bd136ea9d9277880e5fec.jar" />
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-multidex-1.0.0_722b7321ed77c84ac425f05589cbaa3304d2e74a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_607ace7309c5f0d6ea28bf6a59485b265546a742/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_7c4b4bc252b8d394548a13cd20f480a2386c9fc2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="820cd129a621fc57f1b707f95911786eac4057a0">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9b25184b1a65ea8a24a8e7118f26feb820421bbe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/percent/23.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cddfbb68753c7b1222ffb7af97bfd9ecf413aba7">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-23.0.1_09205902355706d069fa3b0e9f1f73af6150387a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_1093bbafba1f29a95ac354dc8acae227133bc103/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-v4-24.0.0_01e69060717b84f6241ea8ed4db972966d8d7d85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_02af076e9c7552f8b197ffab488a027a213df2f6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/internal_impl-24.0.0_1093bbafba1f29a95ac354dc8acae227133bc103/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-24.0.0_4933fd4a0f2799ab04f0470128766890c2b4cd24.jar" />
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_9cbf9072892f2d5eb190f138bd1e68fa85cb87e2/classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-7.5.0_59604c560aa67fb375c8cb99bfcbbc9ec1eceb78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-multidex-1.0.0_93345316e360460bbba5d28efedb9f81bbf4aed3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="82ee2b306014da82147b5b2f1881bf1260c1e2a9">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.google.android.support-wearable-2.0.1_ae7f3c6b025bc7d0f1df588cdc94984b84dcd433.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_560a310401cae7e1d07a993c587d530e507c457e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_edf28fda17ba2e6d8ca30ba953baeed7704179d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_5dd9b1566bdc749997926be801835cfc1a283916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.0.0_445d61cd0f82f42413e054d9b8237bad15b1d64a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/internal_impl-24.0.0_cf4f6761ab5b8e5cbe5faa79947a902dd09f13f8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-recyclerview-v7-25.2.0_5366fb36e5beb32c2d43245da3d07fbffb00b36d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_d48212eba2ca8f3f3255e6614577f092d0c89fea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-24.0.0_55fe6bcdffb83197de4417fe46086a6fe46b998c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-24.0.0_63482a87eb68e5865687e3740b454d618ed9d97e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-design-24.0.0_8d91538a82909df055c22cdecc51df89f432abad.jar" />
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-design-24.0.0_873ad846426b9e15f0514b842301f0e1569e5549.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
-        revision="25.0.2"
-        sha1="c717434f8a4862e1376c0b57a5a477ea3371923e">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_26b2642a3266d3b6bb4f2178b68873d563fded6a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_ca781be88add0d66d15ecd5d76f9178ed76e69d4/classes.dex" />
+        revision="24.0.0"
+        sha1="82ee2b306014da82147b5b2f1881bf1260c1e2a9">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.google.android.support-wearable-2.0.1_ae7f3c6b025bc7d0f1df588cdc94984b84dcd433/classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-7.5.0_2f63d68ac2ac959a2297aa5596964d38bb1d9c96.jar" />
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-24.0.0_e9fc5144c6541bd29b241e35082c94767a897f9e.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="a78183f30e769a98ab4820794f597763088d3065">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.google.android.gms-play-services-base-7.5.0_3f1677c33a28304e1fe453404e2adad88d3cf111/classes.dex" />
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-core-utils-25.2.0_d48212eba2ca8f3f3255e6614577f092d0c89fea/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.0_ad16bd7e9d070210162fa76cc4f181a17a00c263/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_ca781be88add0d66d15ecd5d76f9178ed76e69d4/classes.dex" />
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/support-annotations-25.2.0_560a310401cae7e1d07a993c587d530e507c457e/classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-24.0.0_91d1886c749bbadfb32ec5f34d41dbf2eafb47e5.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-7.5.0_ad2b0a96cdd26f73027084973c235310d957bfef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/percent/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="cddfbb68753c7b1222ffb7af97bfd9ecf413aba7">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-percent-23.0.1_09205902355706d069fa3b0e9f1f73af6150387a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="c717434f8a4862e1376c0b57a5a477ea3371923e">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_26b2642a3266d3b6bb4f2178b68873d563fded6a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-appcompat-v7-24.0.0_02af076e9c7552f8b197ffab488a027a213df2f6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.0_ad16bd7e9d070210162fa76cc4f181a17a00c263/classes.dex" />
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_49704d959fab6146e93dc933e96ec9aa8b540d51.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jar="/home/tsoglani/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-wearable-7.5.0_90f621f0b31538525975bfb1756cb34c5c9cc611.jar" />
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/support-annotations-24.0.0_ca781be88add0d66d15ecd5d76f9178ed76e69d4.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
         sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_7c4b4bc252b8d394548a13cd20f480a2386c9fc2/classes.dex" />
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_f7910ff683592a137843613fe1fb13da4d7fae82.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_01e69060717b84f6241ea8ed4db972966d8d7d85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4d699dd197929286d19b015f4c142b8360f2137">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-2.0.0_fdd7b30579d68dbde0a36314dba5c81ac30bd9bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-multidex-1.0.0_ad16bd7e9d070210162fa76cc4f181a17a00c263/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/2.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d4d699dd197929286d19b015f4c142b8360f2137">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-2.0.0_fdd7b30579d68dbde0a36314dba5c81ac30bd9bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_607ace7309c5f0d6ea28bf6a59485b265546a742/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_5bce1de0d46f02871c2100aa0f21c8af54dba965/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_5bce1de0d46f02871c2100aa0f21c8af54dba965/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-7.5.0_ad2b0a96cdd26f73027084973c235310d957bfef/classes.dex" />
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.google.android.gms-play-services-base-7.5.0_8b0d2527535d94248acb7faf3220afdde65322f0/classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-multidex-1.0.0_18a4a6d3d4d60aa591264dadc0e7f43041f58770.jar" />
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.2.0_5366fb36e5beb32c2d43245da3d07fbffb00b36d.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/media/tsoglani/tsoglani/github/Mario_Face/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_01e69060717b84f6241ea8ed4db972966d8d7d85/classes.dex" />
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_f7910ff683592a137843613fe1fb13da4d7fae82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-compat-25.2.0_edf28fda17ba2e6d8ca30ba953baeed7704179d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_0877ee2b02bb47caf28dae77664a9bd870f3aab1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-core-ui-25.2.0_22633ca6a81513ff40f029ba4c719491a57e56bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_ecc1e14147be1b95d119f79660adaee6e1fc1f25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/mobile/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-24.0.0_e6076fc496674d2c31f875a025d0d8f36ea84f96.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/percent/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="cc03ddac6017ba6366944c3eb01efc8751a00a6b">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-percent-25.2.0_86d33ea27bf2a4045115f2176e046e400507aa86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.5.0_d9a874a1023925b47a1635495e0d50390c6e16f4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.android.support-support-media-compat-25.2.0_0877ee2b02bb47caf28dae77664a9bd870f3aab1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/transforms/dex/release/folders/1000/10/com.google.android.gms-play-services-wearable-7.5.0_d9a874a1023925b47a1635495e0d50390c6e16f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_22633ca6a81513ff40f029ba4c719491a57e56bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/media/tsoglani/F921-DFB4/github/Mario_Face/wear/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.5.0_8b0d2527535d94248acb7faf3220afdde65322f0.jar" />
     </item>
 
 </items>
