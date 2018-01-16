@@ -7,10 +7,10 @@ android {
     publishNonDefault true
     defaultConfig {
         applicationId "tsoglanakos.mrio.watchface.super_mrioface"
-        minSdkVersion 21
+        minSdkVersion 21 // on 2.0 must be >=24
         targetSdkVersion 24
-        versionCode 5
-        versionName "1.4"
+        versionCode 7
+        versionName "1.6"
     }
     buildTypes {
         release {
