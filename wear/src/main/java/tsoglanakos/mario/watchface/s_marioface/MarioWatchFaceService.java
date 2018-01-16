@@ -631,7 +631,7 @@ public class MarioWatchFaceService extends CanvasWatchFaceService {
                 Paint paint= new Paint();
                 paint.setColor(isInAmbientMode()?getResources().getColor(tsoglanakos.mario.watchface.s_marioface.R.color.transparent_white_percent_55):getResources().getColor(tsoglanakos.mario.watchface.s_marioface.R.color.green));
 
-                String formattedDate =  c.get(Calendar.DAY_OF_MONTH)+"/"+ c.get(Calendar.MONTH)+"/"+ Integer.toString(c.get(Calendar.YEAR)).substring(Integer.toString(c.get(Calendar.YEAR)).length()-2);
+                String formattedDate = Integer.toString( c.get(Calendar.DAY_OF_MONTH))+"/"+Integer.toString(  c.get(Calendar.MONTH)+1)+"/"+ Integer.toString(c.get(Calendar.YEAR)).substring(Integer.toString(c.get(Calendar.YEAR)).length()-2);
 
                 paint.setTextSize(25);
                 paint.setTypeface(Typeface.create(Typeface.DEFAULT, Typeface.BOLD_ITALIC));
