@@ -4,9 +4,10 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
+    publishNonDefault true
     defaultConfig {
-        applicationId "tsoglanakos.mrio.watchface.s_mrioface"
-        minSdkVersion 21
+        applicationId "tsoglanakos.mrio.watchface.super_mrioface"
+        minSdkVersion 24
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -18,7 +19,18 @@ android {
 
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+
     }
+//    productFlavors {
+//        wear1 {
+//            // Use the defaultConfig value
+//        }
+//        wear2 {
+//            minSdkVersion 25
+//        }
+//    }
+
+
 }
 
 dependencies {
@@ -26,5 +38,8 @@ dependencies {
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.google.android.support:wearable:+'
-    compile 'com.google.android.gms:play-services-wearable:7.5.0'
+    compile 'com.google.android.gms:play-services-wearable:10.0.1'
+//    compile 'com.android.support:support-compat:25.1.0'
+//    compile 'com.google.android.gms:play-services-wearable:7.5.0'
+//    wearApp project(':wear')
 }

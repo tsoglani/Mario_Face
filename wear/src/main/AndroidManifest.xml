@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tsoglanakos.mario.watchface.s_marioface">
 
-    <uses-feature android:name="android.hardware.type.watch" />
-
+    <uses-feature
+        android:name=" android.hardware.type.Watch"/>
     <!-- Required to act as a custom watch face. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -13,6 +13,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault">
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
         <service
             android:name="tsoglanakos.mario.watchface.s_marioface.MarioWatchFaceService"
             android:label="@string/my_digital_name"

@@ -4,11 +4,12 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
     defaultConfig {
-        applicationId "tsoglanakos.mrio.watchface.s_mrioface"
+        applicationId "tsoglanakos.mrio.watchface.super_mrioface"
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+
     }
     buildTypes {
         release {
@@ -20,11 +21,12 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    wearApp project(':wear')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.android.support:appcompat-v7:24.0.0'
     compile 'com.android.support:design:24.0.0'
-    compile 'com.google.android.gms:play-services-wearable:7.5.0'
+    compile 'com.google.android.gms:play-services-wearable:10.0.1'
+  //  compile 'com.android.support:support-compat:25.1.0'
+    wearApp project(':wear')
 
 }
